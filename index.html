@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Klenty Login Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- HEADER -->
+    <div class="header">
+      <img src="klenty-logo.png" alt="Logo" id="logo" />
+      <div class="header-right">
+        <h3 id="logIn">Log In</h3>
+        <button id="freeButton">TRY FOR FREE</button>
+      </div>
+    </div>
+
+    <!-- HEADLINE -->
+    <div class="headline">
+      <h3>Don't just integrate Accelerate your CRM</h3>
+    </div>
+    <div id="para">
+      <h6 id="para">
+        Propel your sales team into a state of flow with CRM Accelerations.
+        Switch out boring hours of repetitive work with high-impact activities.
+        Build a repeatable sales process.
+      </h6>
+    </div>
+    <div>
+      <button id="getStarted">Get Started</button>
+    </div>
+
+    <!-- APPLICATION -->
+    <div class="box">
+      <div id="box1">
+        <img src="icon1.png" alt="icon1" id="icon1" />
+        <h3 class="first">Engage instantly with prospects who show intent</h3>
+      </div>
+      <div id="box2">
+        <img src="icon2.png" alt="icon2" id="icon2" />
+        <h3 class="second">Outreach without leaving your CRM</h3>
+      </div>
+    </div>
+
+    <div class="info">
+      <div id="info1">
+        <h4 id="one">
+          Auto-sync email engagement data like opens, clicks and replies from
+          Klenty right into your CRM. Get notified immediately. Followup without
+          skipping a beat.
+        </h4>
+      </div>
+      <div id="info2">
+        <h4 id="second">
+          Engage with prospects straight from your CRM.Book meetings using
+          Klenty- without ever logging into Klenty. No more switching screens to
+          execute sales outreach.
+        </h4>
+      </div>
+    </div>
+
+    <!-- TESTINOMIALS -->
+    <div class="testino">
+      <div id="customer">
+        <h2 id="cust1">What our customers have to say</h2>
+      </div>
+
+      <div class="slider">
+        <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+
+        <div class="card active">
+          <div class="quote">
+            <div id="start1">
+              <img src="qoute-start.png" alt="start" id="start" />
+            </div>
+            <div id="company1">
+              <img src="company1.png" alt="company1" id="company" />
+            </div>
+            <div id="end1">
+              <img src="qoute-end.png" alt="end" id="end" />
+            </div>
+          </div>
+
+          <div id="review">
+            <h5 id="review-para">
+              Klenty seamlessly integrates with Pipedrive and offers
+              straightforward email tracking and cadence management. The contact
+              sync is simple and the support is top-notch. A very efficient and
+              effective platform.
+            </h5>
+          </div>
+
+          <div id="post">
+            <div id="profile-pic1">
+              <img src="terersa.png" alt="profile" id="profile-pic" />
+            </div>
+
+            <div id="position">
+              <h3 id="name">Teresa Van Oerle</h3>
+              <h4 id="co-post">Director of Business Development</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="quote">
+            <div id="start1">
+              <img src="qoute-start.png" alt="start" id="start" />
+            </div>
+            <div id="company1">
+              <img src="company1.png" alt="company1" id="company" />
+            </div>
+            <div id="end1">
+              <img src="qoute-end.png" alt="end" id="end" />
+            </div>
+          </div>
+
+          <div id="review">
+            <h5 id="review-para">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </h5>
+          </div>
+
+          <div id="post">
+            <div id="profile-pic1">
+              <img src="alex.png" alt="profile" id="profile-pic" />
+            </div>
+
+            <div id="position">
+              <h3 id="name">FIN</h3>
+              <h4 id="co-post">Director of Business Growth</h4>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="quote">
+            <div id="start1">
+              <img src="qoute-start.png" alt="start" id="start" />
+            </div>
+            <div id="company1">
+              <img src="company1.png" alt="company1" id="company" />
+            </div>
+            <div id="end1">
+              <img src="qoute-end.png" alt="end" id="end" />
+            </div>
+          </div>
+
+          <div id="review">
+            <h5 id="review-para">
+              Klenty seamlessly integrates with Pipedrive and offers
+              straightforward email tracking and cadence management. The contact
+              sync is simple and the support is top-notch. A very efficient and
+              effective platform.
+            </h5>
+          </div>
+
+          <div id="post">
+            <div id="profile-pic1">
+              <img src="Brandon.png" alt="profile" id="profile-pic" />
+            </div>
+
+            <div id="position">
+              <h3 id="name">TIN</h3>
+              <h4 id="co-post">Director of Development</h4>
+            </div>
+          </div>
+        </div>
+        <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+      </div>
+    </div>
+
+    <!-- JAVASCRIPT CODE -->
+    <script>
+      let x = document.querySelectorAll(".card");
+      console.log(x.length);
+      let index = 0;
+
+      function next() {
+        x[index].classList.remove("active");
+        index = (index + 1) % x.length;
+        x[index].classList.add("active");
+      }
+
+      function prev() {
+        x[index].classList.remove("active");
+        index = (index - 1 + x.length) % x.length;
+        x[index].classList.add("active");
+      }
+    </script>
+  </body>
+</html>

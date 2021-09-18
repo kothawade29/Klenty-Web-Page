@@ -1,0 +1,387 @@
+.header{
+    margin-left: 30px;
+}
+
+#logo{
+width: 128.06px;
+height: 60px;
+left: 60px;
+top: 30px;
+
+}
+.header-right{
+    float: right;
+    margin-right: 127px;
+    margin-top: 5px;
+}
+#logIn{
+    margin-top: 30px;
+    height: 25px;
+    font-family: Open Sans;
+    font-style: normal;
+    text-align: center;
+    color: #05034E;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    float: left;
+}
+#freeButton{
+    margin-top: 20px;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    background: #5856CE;
+    border-radius: 4px;
+    position: absolute;
+    width: 110px;
+    height: 35px;
+    left: 1279px;
+    top: 41px;
+    position: static;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 15px;
+
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.headline{
+ margin-left: 250px;
+width: 600px;
+height: 136px;
+left: 230px;
+top: 100px;
+
+
+font-family: Paytone One;
+font-style: normal;
+font-weight: normal;
+font-size: 48.83px;
+line-height: 68px;
+text-align: center;
+
+color: #05034E;
+
+     
+}
+#para{
+margin-left: 55px;
+width: 890px;
+height: 54px;
+left: 284px;
+top: 385px;
+
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+
+color: #202020;
+
+}
+#getStarted{
+margin-top: 40px;
+margin-left: 445px;
+background-color:  #5856CE;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 22px 32px;
+
+position: absolute;
+width: 150px;
+height: 41px;
+left: 630px;
+top: 495px;
+
+border-radius: 4px;
+position: static;
+width: 230px;
+height: 17px;
+left: 32px;
+top: 12px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+.box{
+    margin-top: 20px;
+}
+.first{
+float: left;
+margin-left: 15px;
+width: 300px;
+height: 54px;
+left: 227px;
+top: 621px;
+
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 27px;
+
+color: #05034E;
+
+}
+.second {
+float: left;
+margin-left: 15px;
+width: 300px;
+height: 54px;
+left: 832px;
+top: 621px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 27px;
+
+color: #05034E;
+
+}
+#icon1{
+    float: left;
+    margin-top: 20px;
+}
+#box1{
+    margin-left: 50px;
+    float: left;
+}
+#box2{
+    float: left;
+    margin-left: 330px;
+}
+#icon2{
+    margin-top: 15px;
+    float: left;
+}
+.info{
+    margin-top: 5px;
+}
+#one{
+margin-left: 100px;
+width: 300px;
+height: 88px;
+left: 227px;
+top: 695px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
+color: #202020;
+
+}
+#second{
+width: 300px;
+height: 88px;
+left: 831px;
+top: 695px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
+color: #202020;
+
+}
+#info1{
+    float: left;
+}
+#info2{
+    float: left;
+    margin-left: 390px;
+}
+.slider{
+    display: flex;
+}
+
+
+ .testino{
+ margin-top: 20px;
+ width: 1000px;
+ height: 500px;
+ left: 0px;
+ top: 861px;
+ background: #F2F2FD;
+ float: left; 
+ margin-left: 80px;
+ }
+ #cust1{
+     margin-left: 270px;
+     width: 494px;
+     height: 50px;
+     left: 473px;
+     top: 941px;
+     
+     /* H3 */
+     
+     font-family: Paytone One;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 35px;
+     line-height: 40px;
+     /* identical to box height, or 130% */
+     
+     text-align: center;
+     
+     color: #05034E;
+ }
+ .card{
+     float: left;
+     margin-top: 30px;
+     margin-left: 70px;
+ width: 750px;
+ height: 350px;
+ left: 167px;
+ top: 1042px;
+ 
+ background: #FFFFFF;
+ box-shadow: 12px 12px 30px rgba(0, 0, 0, 0.08);
+ border-radius: 10px;
+ animation: card .4s linear;
+ }
+ #start{
+ height: 40px;
+ top: 1146px;
+ 
+ }
+ #start1{
+     float: left;
+     margin-left: 40px;
+    
+ }
+ #company1{
+  float: left;
+ }
+ #end{
+     height: 40px;
+     top: 1146px;
+ }
+ #company{
+     margin-left: 115px;
+     margin-top: 3px;
+ }
+ #end1{
+     margin-left: 490px;
+ }
+ .quote{
+     float: left;
+     margin-top: 40px;
+     margin-left: 70px;
+ }
+ #review{
+     float: left;
+ 
+ }
+ #review-para{
+     margin-left: 70px;
+     width: 600px;
+ height: 100px;
+ left: 413px;
+ top: 1200px;
+ 
+ font-family: Open Sans;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 20px;
+ line-height: 27px;
+ text-align: center;
+ 
+ color: #202020;
+ }
+ #post{
+     float: left;
+     margin-left: 120px;
+ }
+ #profile-pic1{
+     margin-left: 90px;
+     float: left;
+ }
+ #profile-pic{
+  width: 90px;
+ height: 80px;
+ left: 566px;
+ top: 1367px;
+ 
+ background: url(image.png);
+ border: 1px solid #F1F1F1;
+ box-sizing: border-box;
+ border-radius: 100px;
+ }
+ #position{
+     float: left;
+     margin-left: 10px;
+ }
+ #name{
+     width: 204px;
+ height: 10px;
+ left: 651px;
+ top: 1367px;
+ 
+ font-family: Open Sans;
+ font-style: normal;
+ font-weight: 600;
+ font-size: 16px;
+ line-height: 30px;
+ /* or 187% */
+ 
+ 
+ color: #05034E;
+ }
+ .testino .card {
+     display: none;
+ }
+ .testino .card.active{
+     display: block;
+ }
+
+ #prev{
+     margin-left: 60px;
+     margin-top: 90px;
+ }
+ #next{
+     margin-left:60px  ;
+     margin-top: 70px;
+ }
+
+ @keyframes card{
+    0%{
+        transform: rotateX(180deg);
+    }
+}
+.card{
+    animation: slidecontent .3s linear .5s;
+}
+@keyframes slidecontent{
+    0%{
+        opacity: 0%;
+        transform: scaleX(.7);
+    }
+}
+ 
